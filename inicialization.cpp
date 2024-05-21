@@ -12,7 +12,12 @@ class mahasiswa{
     mahasiswa (int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai){ // member 
         // definisi
     }
-}
+    ~mahasiswa() {
+        cout << "id =" << endl;
+        cout << "nama =" << endl;
+        cout << "nilai =" << endl;
+    }
+};
 
 int main()
 {
