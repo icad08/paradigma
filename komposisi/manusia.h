@@ -2,3 +2,6 @@
 #define MANUSIA_H
 using namaspace std;
 
+class manusia {
+    
+}
